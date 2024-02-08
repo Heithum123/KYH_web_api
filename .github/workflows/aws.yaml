@@ -33,7 +33,7 @@ jobs:
           application_name: KalkylatorAPI
           environment_name: Kalkylator-env
           version_label: ${{ github.run_id }}
-          region: eu-north-1
+          region: us-east-1
           deployment_package: site.zip
  
  
