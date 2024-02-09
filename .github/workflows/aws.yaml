@@ -34,7 +34,7 @@ jobs:
           environment_name: KalkylatorAPI-env
           version_label: ${{ github.run_id }}
           region: us-east-1
-          deployment_package: site.zip
+          deployment_package: site.zip  
  
  
 #Trigger actions
