@@ -8,7 +8,7 @@ builder.Services.AddCors(policyBuilder =>
 var app = builder.Build();
 app.UseCors();
 
-app.MapGet("/", () => "Hello World!!!");
+app.MapGet("/", () => "Välkommen till min värld");
 
 app.MapGet("/add", (int num1, int num2) => AddNumbers(num1, num2));
 
